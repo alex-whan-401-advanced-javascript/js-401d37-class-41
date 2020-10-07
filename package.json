@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "A native phone/device application using React Native.",
   "main": "index.js",
+  "dependencies": {
+    "expo-contacts": "^8.6.0",
+    "expo-location": "^9.0.1",
+    "expo-permissions": "^9.3.0",
+    "react-native": "^0.63.3",
+    "react-native-maps": "^0.27.1",
+    "react-native-paper": "^4.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,12 +25,5 @@
   "bugs": {
     "url": "https://github.com/alex-whan-401-advanced-javascript/js-401d37-class-41/issues"
   },
-  "homepage": "https://github.com/alex-whan-401-advanced-javascript/js-401d37-class-41#readme",
-  "dependencies": {
-    "expo-contacts": "^8.6.0",
-    "expo-location": "^9.0.1",
-    "expo-permissions": "^9.3.0",
-    "react-native": "^0.63.3",
-    "react-native-maps": "^0.27.1"
-  }
+  "homepage": "https://github.com/alex-whan-401-advanced-javascript/js-401d37-class-41#readme"
 }
