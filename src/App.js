@@ -15,6 +15,7 @@ import {
   Appbar,
   Avatar,
 } from 'react-native-paper';
+import Header from './components/Header';
 import * as Permissions from 'expo-permissions';
 import * as Contacts from 'expo-contacts';
 // import * as Location from 'expo-location';
@@ -57,7 +58,7 @@ const App = props => {
     return (
       <SafeAreaView>
         <View style={styles.container}>
-          <Text>Still need permission!</Text>
+          <Text syle={styles.title}>Still need permission!</Text>
         </View>
       </SafeAreaView>
     );
@@ -66,14 +67,7 @@ const App = props => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <Title style={styles.title}>Bumblebee Simulator</Title>
-        <View>
-          <Avatar.Image
-            size={64}
-            source={require('./assets/bumblebee-logo2.png')}
-          />
-        </View>
-        <Subheading style={styles.title}>Choose your pattern!</Subheading>
+        <Header />
         <Separator />
         <Button
           icon="ladybug"
