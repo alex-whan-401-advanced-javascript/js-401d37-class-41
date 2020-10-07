@@ -1,23 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import {
-  StyleSheet,
-  Platform,
-  Vibration,
-  View,
-  Text,
-  SafeAreaView,
-} from 'react-native';
-import {
-  Divider,
-  Button,
-  Title,
-  Subheading,
-  Appbar,
-  Avatar,
-} from 'react-native-paper';
+import { StyleSheet, Vibration, View, Text, SafeAreaView } from 'react-native';
+import { Button } from 'react-native-paper';
 import Header from './components/Header';
 import * as Permissions from 'expo-permissions';
-import * as Contacts from 'expo-contacts';
 // import * as Location from 'expo-location';
 
 const Separator = () => <View style={styles.separator} />;
